@@ -14,7 +14,7 @@
 #include <iostream>
 #include <string>
 
-#include "../include/interpolating_map.h"
+#include "interpolating_map.h"
 
 
 using namespace am;
