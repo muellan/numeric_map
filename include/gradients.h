@@ -10,7 +10,7 @@
 namespace am {
 
 
-/*****************************************************************************
+/*************************************************************************//***
  *
  * @brief polymorphic interpolating function with numeric input
  *        (input is usually floating point in the range of [0,1])
@@ -43,9 +43,7 @@ public:
 
 
 
-
-
-/*****************************************************************************
+/*************************************************************************//***
  *
  * @brief augments an interpolating_map with a gradient interface
  *
@@ -115,8 +113,6 @@ public:
 private:
     map_t map_;
 };
-
-
 
 
 

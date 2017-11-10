@@ -33,5 +33,5 @@ Differences to ```std::map```:
 
 ## Requirements
   - requires C++14 conforming compiler
-  - tested with g++ 5.3.1
+  - tested with g++ 6.1
 

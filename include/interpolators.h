@@ -50,7 +50,7 @@ make_fp(T&& x) {
 
 
 
-/*****************************************************************************
+/*************************************************************************//***
  *
  * @brief returns the value of a piece-wise constant function at position x
  *
@@ -96,7 +96,7 @@ struct piecewise_constant
 
 
 
-/*****************************************************************************
+/*************************************************************************//***
  *
  * @brief returns the value of a piece-wise linearly interpolating function at
  *        position x
@@ -157,7 +157,7 @@ struct piecewise_linear
 
 
 
-/*****************************************************************************
+/*************************************************************************//***
  *
  * @brief returns the value of a piece-wise linearly interpolating function at
  *        position log(x)

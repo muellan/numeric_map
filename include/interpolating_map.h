@@ -4,7 +4,7 @@
  *
  * released under MIT license
  *
- * 2008-2016 André Müller
+ * 2008-2017 André Müller
  *
  *****************************************************************************/
 
@@ -20,7 +20,7 @@
 namespace am {
 
 
-/*****************************************************************************
+/*************************************************************************//***
  *
  * @brief Interpolation function with a std::map like interface.
  *        Each {key,value} pair is a node (in the mathematical sense)
@@ -471,9 +471,7 @@ using piecewise_log_linear_map =
 
 
 
-
-
-/*****************************************************************************
+/*************************************************************************//***
  *
  * @brief free-standing swap of 2 interpolating maps
  *
@@ -484,8 +482,6 @@ swap(interpolating_map<K,T,I,C,A>& a, interpolating_map<K,T,I,C,A>& b)
 {
     a.swap(b);
 }
-
-
 
 
 
